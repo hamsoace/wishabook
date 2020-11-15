@@ -70,7 +70,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="OR"
+            android:text="NEW HERE? SIGN UP"
             android:textSize="25sp"
             android:textAllCaps="true"
             android:textAlignment="center"

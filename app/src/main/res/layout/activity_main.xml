@@ -18,12 +18,21 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/signupbtn"
+            android:background="@drawable/loginbtn"
             android:layout_marginTop="80sp"
             android:text="LOGIN"
             android:textSize="20sp"
             android:textColor="@color/white"
             android:id="@+id/btnLogin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/signupbtn"
+            android:layout_marginTop="10sp"
+            android:textSize="20sp"
+            android:text="SIGN UP"
+            android:textColor="@color/white"/>
     </LinearLayout>
 
 

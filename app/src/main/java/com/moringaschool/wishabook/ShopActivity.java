@@ -16,8 +16,10 @@ import butterknife.ButterKnife;
 
 public class ShopActivity extends AppCompatActivity {
 
-    @BindView(R.id.listBook)
-    ListView mListView;
+//    @BindView(R.id.listBook)
+//    ListView mListView;
+
+    private ListView mListView;
 
     private String[] books = new String[]{"Brief History of Time", "Life 3.0", "The God Delusion",
         "The God Game", "Sapiens", "Cosmos"};
@@ -27,9 +29,10 @@ public class ShopActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop);
-        ButterKnife.bind(this);
+//        ButterKnife.bind(this);
+        mListView= (ListView) findViewById(R.id.listView);
 
-        Context context;
+//        Context context;
         ArrayAdapter adapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, books);
         mListView.setAdapter(adapter);
 

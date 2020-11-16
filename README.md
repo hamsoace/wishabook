@@ -1,6 +1,6 @@
 ### WISH A BOOK
 
-An android app that you can shop for books and have it delivered to you right at your doorstep.
+An android app that allows you to shop for books and have it delivered to you right at your doorstep.
 
 ## Author
 **HAMISI ANDALE**

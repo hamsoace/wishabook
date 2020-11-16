@@ -14,7 +14,8 @@ import butterknife.ButterKnife;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button btnLogin;
+//    Button btnLogin;
+    @BindView(R.id.btnlogin) Button btnlogin;
     @BindView(R.id.userEmail)
     EditText userEmail;
     @BindView(R.id.userPassword) EditText userPassword;
@@ -26,21 +27,21 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
 
-        btnLogin=findViewById(R.id.btnLogin);
+//        btnLogin=findViewById(R.id.btnLogin);
 
-        btnLogin.setOnClickListener(new View.OnClickListener() {
+        btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String email=userEmail.getText().toString().trim();
                 String password=userPassword.getText().toString().trim();
 
                 if(email.equals("admin@mail.com") && (password.equals("password"))){
-                    Intent intent = new Intent(LoginActivity.this, ShopActivity.class);
-                    startActivity(intent);
                     Toast.makeText(getApplicationContext(), "Welcome to Wish-A-Book",Toast.LENGTH_SHORT).show();
                 }else {
                     Toast.makeText(getApplicationContext(),"Wrong email or password",Toast.LENGTH_SHORT).show();
                 }
+                Intent intent = new Intent(LoginActivity.this, ShopActivity.class);
+                startActivity(intent);
 
             }
         });

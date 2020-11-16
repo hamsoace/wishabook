@@ -54,6 +54,7 @@
             android:text="LOGIN"
             android:background="@drawable/loginbtn"
             android:textColor="@color/white"
+            android:id="@+id/btnlogin"
             />
 
         <TextView

@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
                 String email=userEmail.getText().toString().trim();
                 String password=userPassword.getText().toString().trim();
 
-                if(email.equals("admin") && (password.equals("password"))){
+                if(email.equals("admin@mail.com") && (password.equals("password"))){
                     Intent intent = new Intent(LoginActivity.this, ShopActivity.class);
                     startActivity(intent);
                     Toast.makeText(getApplicationContext(), "Welcome to Wish-A-Book",Toast.LENGTH_SHORT).show();

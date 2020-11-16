@@ -28,6 +28,91 @@
             android:textColor="@color/colorPrimary"
             android:layout_marginTop="80sp"
             android:layout_marginBottom="40sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstName"
+                android:inputType="text"
+                android:hint="First Name"
+                android:textColor="@color/colorSecondary"
+                android:textSize="18sp"
+                android:textColorHint="@color/colorPrimary"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/lastName"
+                android:inputType="text"
+                android:hint="Last Name"
+                android:textSize="18sp"
+                android:textColorHint="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/emailAddress"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            android:textColorHint="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/userPassword"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textColor="@color/colorSecondary"
+                android:textSize="18sp"
+                android:textColorHint="@color/colorPrimary"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/confirmPassword"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"
+                android:textSize="18sp"
+                android:textColorHint="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userContact"
+            android:inputType="phone"
+            android:textSize="18sp"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="Phone Number"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonRegister"
+            android:text="SIGN UP"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+
     </LinearLayout>
 
 </LinearLayout>

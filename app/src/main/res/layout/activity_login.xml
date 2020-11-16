@@ -36,7 +36,7 @@
             android:id="@+id/userEmail"
             android:inputType="textEmailAddress"
             android:hint="Email"
-            android:textColor="@color/colorPrimary"/>
+            android:textColor="@color/colorSecondary"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
             android:id="@+id/userPassword"
             android:inputType="textPassword"
             android:hint="Password"
-            android:textColor="@color/colorPrimary"/>
+            android:textColor="@color/colorSecondary"/>
 
         <Button
             android:layout_width="match_parent"
@@ -60,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="NOT REGISTERED?"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textAllCaps="true"
             android:textAlignment="center"
             android:textColor="@color/colorPrimary"
@@ -71,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SIGN UP"
-            android:textSize="25sp"
+            android:textSize="18sp"
             android:textAllCaps="true"
             android:textAlignment="center"
             android:textColor="@color/colorSecondary2"

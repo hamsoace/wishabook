@@ -1,10 +1,17 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
 }
 
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
+
+    testOptions{
+        unitTests{
+            includeAndroidResources = true
+        }
+    }
 
     defaultConfig {
         applicationId "com.moringaschool.wishabook"
@@ -14,6 +21,10 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes.each{
+        it.buildConfigField 'String', 'BOOK_API_KEY', GoogleBookApiKey
     }
 
     buildTypes {
@@ -46,4 +57,6 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation platform('com.google.firebase:firebase-bom:26.1.0')
+    implementation 'com.google.firebase:firebase-analytics'
 }

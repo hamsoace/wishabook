@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "461613052911",
+    "firebase_url": "https://wish-a-book.firebaseio.com",
+    "project_id": "wish-a-book",
+    "storage_bucket": "wish-a-book.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461613052911:android:0c07f1a464f633cc05bc1a",
+        "android_client_info": {
+          "package_name": "com.moringaschool.wishabook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461613052911-dv1gu183o8rgij3kp1gutpsun72lbf8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqzo2MqHr70hsPxqlyLDw_hM7DD2c8njA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461613052911-dv1gu183o8rgij3kp1gutpsun72lbf8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

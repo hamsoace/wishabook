@@ -5,9 +5,9 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface BookApi {
-    @GET("book/search")
+    @GET("book")
     Call<GoogleBookSearchResponse> getBook(
-            @Query("title") String title,
-            @Query("term") String term
+            @Query("title") String title
+            //@Query("term") String term
     );
 }

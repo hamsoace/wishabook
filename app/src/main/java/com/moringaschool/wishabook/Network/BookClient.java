@@ -35,7 +35,7 @@ public class BookClient {
                     .addConverterFactory(GsonConverterFactory.create()).build();
         }
 
-
+        return retrofit.create(BookApi.class);
     }
 
 }

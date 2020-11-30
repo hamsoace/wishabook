@@ -1,8 +1,7 @@
-package com.moringaschool.wishabook;
+package com.moringaschool.wishabook.UI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -11,8 +10,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
+import com.moringaschool.wishabook.R;
 
 public class ShopActivity extends AppCompatActivity {
 

@@ -1,8 +1,10 @@
-package com.moringaschool.wishabook;
+package com.moringaschool.wishabook.UI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.moringaschool.wishabook.R;
 
 public class SignupActivity extends AppCompatActivity {
 

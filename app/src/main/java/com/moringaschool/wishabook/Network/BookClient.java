@@ -1,4 +1,4 @@
-package com.moringaschool.wishabook;
+package com.moringaschool.wishabook.Network;
 
 import java.io.IOException;
 
@@ -7,7 +7,6 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 import retrofit2.Retrofit;
-import retrofit2.Retrofit.Builder;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 import static com.moringaschool.wishabook.Constants.BOOK_API_KEY;
@@ -35,7 +34,8 @@ public class BookClient {
             retrofit = new Retrofit.Builder().baseUrl(BOOK_BASE_URL).client(okHttpClient)
                     .addConverterFactory(GsonConverterFactory.create()).build();
         }
-        return  retrofit.create(BookApi.class);
+
+
     }
 
 }

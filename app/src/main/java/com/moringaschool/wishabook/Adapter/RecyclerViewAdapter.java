@@ -1,4 +1,4 @@
-package com.moringaschool.wishabook;
+package com.moringaschool.wishabook.Adapter;
 
 import android.view.View;
 import android.view.ViewGroup;

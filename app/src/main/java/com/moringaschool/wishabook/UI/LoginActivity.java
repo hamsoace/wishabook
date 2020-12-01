@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 if(email.equals("admin@mail.com") && (password.equals("password"))){
                     Toast.makeText(getApplicationContext(), "Welcome to Wish-A-Book",Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(LoginActivity.this, ShopActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                     intent.putExtra("email", email);
                     startActivity(intent);
                 }else {

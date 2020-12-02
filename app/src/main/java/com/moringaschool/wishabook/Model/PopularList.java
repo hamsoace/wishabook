@@ -5,7 +5,7 @@ public class PopularList {
     Integer id;
     String imageUrl;
 
-    public PopularList(Integer id, String imageUrl) {
+    public PopularList(Integer id, int imageUrl) {
         this.id = id;
         this.imageUrl = imageUrl;
     }

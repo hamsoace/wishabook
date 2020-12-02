@@ -66,7 +66,7 @@ public class HomeActivity extends AppCompatActivity {
     private void setPopularRecycler(List<PopularList> dataList) {
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false);
         popularRecyclerView.setLayoutManager(layoutManager);
-        popularListAdapter = new PopularListAdapter(this, dataList);
+       // popularListAdapter = new PopularListAdapter(this, dataList);
         popularRecyclerView.setAdapter(popularListAdapter);
     }
 }

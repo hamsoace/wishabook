@@ -30,7 +30,7 @@ public class PopularListAdapter extends RecyclerView.Adapter<PopularListAdapter.
     @Override
     public void onBindViewHolder(@NonNull PopularListViewHolder holder, int position) {
 
-        holder.productImageView.setImageResource(Integer.parseInt(productList.get(position).getImageUrl()));
+        holder.productImageView.setImageResource(productList.get(position).getImageUrl());
 
     }
 

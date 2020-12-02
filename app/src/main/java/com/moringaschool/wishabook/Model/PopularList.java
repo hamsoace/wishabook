@@ -3,7 +3,7 @@ package com.moringaschool.wishabook.Model;
 public class PopularList {
 
     Integer id;
-    String imageUrl;
+    int imageUrl;
 
     public PopularList(Integer id, int imageUrl) {
         this.id = id;
@@ -18,11 +18,11 @@ public class PopularList {
         this.id = id;
     }
 
-    public String getImageUrl() {
+    public int getImageUrl() {
         return imageUrl;
     }
 
-    public void setImageUrl(String imageUrl) {
+    public void setImageUrl(int imageUrl) {
         this.imageUrl = imageUrl;
     }
 }

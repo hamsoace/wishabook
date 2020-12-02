@@ -16,7 +16,6 @@ import butterknife.ButterKnife;
 
 public class LoginActivity extends AppCompatActivity {
 
-//    Button btnLogin;
     @BindView(R.id.btnlogin) Button btnlogin;
     @BindView(R.id.userEmail)
     EditText userEmail;
@@ -29,7 +28,6 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
 
-//        btnLogin=findViewById(R.id.btnLogin);
 
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override

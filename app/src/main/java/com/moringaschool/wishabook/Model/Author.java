@@ -4,18 +4,18 @@ public class Author {
 
     Integer id;
     int imageUrl;
-    String aurthorName;
+    String authorName;
 
-    public String getAurthorName() {
-        return aurthorName;
+    public String getAuthorName() {
+        return authorName;
     }
 
-    public void setAurthorName(String aurthorName) {
-        this.aurthorName = aurthorName;
+    public void setAuthorName(String authorName) {
+        this.authorName = authorName;
     }
 
-    public Author(String aurthorName) {
-        this.aurthorName = aurthorName;
+    public Author(String authorName) {
+        this.authorName = authorName;
     }
 
     public Author(Integer id, int imageUrl) {

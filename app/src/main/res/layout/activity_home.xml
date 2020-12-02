@@ -112,6 +112,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/popularList"
         android:layout_width="395dp"
         android:layout_height="141dp"
         app:layout_constraintEnd_toEndOf="parent"

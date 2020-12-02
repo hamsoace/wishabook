@@ -29,8 +29,8 @@ public class HomeActivity extends AppCompatActivity {
     List<PopularList> popularLists;
 
 
-    private String[] books = new String[]{"Brief History of Time", "Life 3.0", "The God Delusion",
-        "The God Game", "Sapiens", "Cosmos"};
+   // private String[] books = new String[]{"Brief History of Time", "Life 3.0", "The God Delusion",
+    //    "The God Game", "Sapiens", "Cosmos"};
 
     public static final String TAG = HomeActivity.class.getSimpleName();
     @Override
@@ -44,6 +44,8 @@ public class HomeActivity extends AppCompatActivity {
 
         popularLists= new ArrayList<>();
         popularLists.add(new PopularList(1, R.drawable.top_10_fiction));
+        popularLists.add(new PopularList(2, R.drawable.pl_25_of_25));
+        popularLists.add(new PopularList(3, R.drawable.top_10_fiction));
         popularLists.add(new PopularList(2, R.drawable.pl_25_of_25));
         popularLists.add(new PopularList(3, R.drawable.top_10_fiction));
 

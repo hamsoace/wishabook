@@ -12,6 +12,9 @@ An android app that allows you to shop for books and have it delivered to you ri
 4. Gradle
 5. Markdown
 
+## Figma Design
+https://www.figma.com/proto/dpAUEVvKhj6umkr8vED8vQ/Wish-A-Book?node-id=3%3A145&scaling=scale-down
+
 ## Set up process
 1. Install Android Studio
 2. Install Eclipse, Maven and Java

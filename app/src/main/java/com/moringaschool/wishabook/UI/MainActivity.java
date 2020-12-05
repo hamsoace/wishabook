@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         bottomAnim = AnimationUtils.loadAnimation(this, R.anim.bottom_anim);
 
         backgroundImage.setAnimation(sideAnim);
-        poweredBy.setAnimation(bottomAnim);
+        //poweredBy.setAnimation(bottomAnim);
 
         new Handler().postDelayed(new Runnable() {
             @Override

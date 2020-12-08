@@ -18,6 +18,7 @@ import com.facebook.drawee.view.SimpleDraweeView;
 import com.moringaschool.wishabook.Product.ItemDetailsActivity;
 import com.moringaschool.wishabook.R;
 import com.moringaschool.wishabook.UI.MainActivity;
+import com.moringaschool.wishabook.UI.SuperClass;
 import com.moringaschool.wishabook.UI.Word;
 
 import java.util.List;
@@ -29,7 +30,7 @@ public class ImageListFragment extends Fragment {
     private static MainActivity mActivity;
 
 
-    public static  SuperClass details;
+    public static SuperClass details;
     public static List<Word> productlist;
 
 

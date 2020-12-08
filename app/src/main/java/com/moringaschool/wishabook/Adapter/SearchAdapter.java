@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.moringaschool.wishabook.Product.ItemDetailsActivity;
 import com.moringaschool.wishabook.R;
 
 import java.util.ArrayList;

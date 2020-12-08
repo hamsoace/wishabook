@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.moringaschool.wishabook.Product.ItemDetailsActivity;
 import com.moringaschool.wishabook.R;
+import com.moringaschool.wishabook.UI.Item;
 
 import java.util.ArrayList;
 import java.util.List;

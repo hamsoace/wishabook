@@ -6,7 +6,9 @@ import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.ViewConfiguration;
 
-public class CupcakeGestureDetector extends GestureDetector {
+import java.util.logging.LogManager;
+
+public class CupcakeGestureDetector implements com.moringaschool.wishabook.Photoview.GestureDetector, CupcakeGestureDetectors {
 
     protected OnGestureListener mListener;
     private static final String LOG_TAG = "CupcakeGestureDetector";
@@ -15,9 +17,9 @@ public class CupcakeGestureDetector extends GestureDetector {
     final float mTouchSlop;
     final float mMinimumVelocity;
 
-    @Override
+
     public void setOnGestureListener(GestureDetector.OnGestureListener listener) {
-        this.mListener = listener;
+        this.mListener = (OnGestureListener) listener;
     }
 
     public CupcakeGestureDetector(Context context) {
@@ -44,6 +46,11 @@ public class CupcakeGestureDetector extends GestureDetector {
 
     public boolean isDragging() {
         return mIsDragging;
+    }
+
+    @Override
+    public void setOnGestureListener(OnGestureListener listener) {
+
     }
 
     @Override

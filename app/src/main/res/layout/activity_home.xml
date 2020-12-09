@@ -13,7 +13,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/open_sans"
         android:text="Home"
-        android:textColor="@color/black"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -57,7 +57,7 @@
         android:layout_marginTop="24dp"
         android:fontFamily="@font/open_sans_bold_italic"
         android:text="Wish-A-Book"
-        android:textColor="@color/colorSecondary"
+        android:textColor="@color/colorAccent"
         android:textSize="30sp"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_semibold"
         android:text="Welcome Back,"
-        android:textColor="@color/black"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         tools:ignore="MissingConstraints"
@@ -80,7 +80,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_semibold"
         android:text="Hamso!"
-        android:textColor="@color/black"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:ignore="MissingConstraints"
@@ -106,7 +106,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/open_sans_bold_italic"
         android:text="Popular Lists"
-        android:textColor="@color/black"
+        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp" />
@@ -127,7 +127,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/open_sans_bold_italic"
         android:text="Top 10 Authors"
-        android:textColor="@color/black"
+        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintTop_toBottomOf="@+id/popularList"
         tools:layout_editor_absoluteX="16dp" />
 

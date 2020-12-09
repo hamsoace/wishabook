@@ -12,8 +12,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.moringaschool.wishabook.Fragments.ImageListFragment;
+import com.moringaschool.wishabook.Notifications.NotificationCountSetClass;
 import com.moringaschool.wishabook.R;
+import com.moringaschool.wishabook.UI.Item;
 import com.moringaschool.wishabook.UI.MainActivity;
+import com.moringaschool.wishabook.UI.SearchProduct;
+import com.moringaschool.wishabook.UI.Word;
+import com.moringaschool.wishabook.Utilities.ImageUrlUtils;
 
 import java.util.List;
 
@@ -38,7 +44,7 @@ public class ItemDetailsActivity extends AppCompatActivity {
     TextView itemPrice;
 
     int productPosition;
-    ont position = -1;
+    int position = -1;
 
 
     @Override
@@ -102,7 +108,7 @@ public class ItemDetailsActivity extends AppCompatActivity {
 
                 productitems = products.getProductList();
 
-                itemImage = (ImageView)findViewById(R.id.search_imaage);
+                itemImage = (ImageView)findViewById(R.id.search_image);
                 itemName = (TextView) findViewById(R.id.search_name);
                 itemDesc = (TextView) findViewById(R.id.description_part);
                 itemPrice = (TextView) findViewById(R.id.search_price);

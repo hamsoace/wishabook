@@ -1,4 +1,4 @@
-package com.moringaschool.wishabook.UI;
+package com.moringaschool.wishabook.Data;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -15,6 +15,8 @@ import android.widget.SearchView;
 
 import com.moringaschool.wishabook.Adapter.SearchAdapter;
 import com.moringaschool.wishabook.R;
+import com.moringaschool.wishabook.UI.Item;
+import com.moringaschool.wishabook.UI.SearchProduct;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +25,7 @@ import java.util.regex.Pattern;
 
 public class SearchResultActivity extends AppCompatActivity {
 
-    private FrequentItemsetData apriori;
+    //private FrequentItemsetData apriori;
 
     RecyclerView recyclerView;
     SearchAdapter adapter;
@@ -64,7 +66,8 @@ public class SearchResultActivity extends AppCompatActivity {
         return true;
     }
     @Override
-    protected void onNewIntent(Intent intent){
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
         handleIntent(intent);
     }
     private void handleIntent(Intent intent){

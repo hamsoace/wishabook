@@ -1,6 +1,8 @@
 package com.moringaschool.wishabook.Fragments;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.app.Activity;
@@ -10,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.moringaschool.wishabook.R;
+import com.moringaschool.wishabook.Utilities.ImageUrlUtils;
 
 public class ViewPagerActivity extends Activity {
 
@@ -54,7 +57,7 @@ public class ViewPagerActivity extends Activity {
 
         @Override
         public View instantiateItem(ViewGroup container, int position) {
-            PhotoView photoView = new PhotoView(container.getContext());
+            com.allandroidprojects.ecomsample.photoview.view.PhotoView photoView = new com.allandroidprojects.ecomsample.photoview.view.PhotoView(container.getContext());
             photoView.setImageUri(sDrawables[position]);
 
             // Now just add PhotoView to ViewPager and return it

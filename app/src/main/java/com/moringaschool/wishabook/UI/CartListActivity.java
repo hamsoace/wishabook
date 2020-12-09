@@ -17,9 +17,14 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.moringaschool.wishabook.Product.ItemDetailsActivity;
 import com.moringaschool.wishabook.R;
+import com.moringaschool.wishabook.Utilities.ImageUrlUtils;
 
 import java.util.ArrayList;
+
+import static com.moringaschool.wishabook.Product.ItemDetailsActivity.STRING_IMAGE_POSITION;
+import static com.moringaschool.wishabook.Product.ItemDetailsActivity.STRING_IMAGE_URI;
 
 public class CartListActivity extends AppCompatActivity {
     private static Context mContext;
@@ -116,7 +121,7 @@ public class CartListActivity extends AppCompatActivity {
             });
 
             holder.mLayoutRemove.setOnClickListener((view) ->{
-                ImaageUrlUtils imaageUrlUtils = new ImageUrlUtils();
+                ImageUrlUtils imaageUrlUtils = new ImageUrlUtils();
                 imageUrlUtils.removeCartListImageUri(position);
                 Word word = new Word();
                 word.removeMyCard(position);

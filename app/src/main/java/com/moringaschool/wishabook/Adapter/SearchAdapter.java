@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.moringaschool.wishabook.Product.ItemDetailsActivity;
 import com.moringaschool.wishabook.R;
 import com.moringaschool.wishabook.UI.Item;
+import com.moringaschool.wishabook.UI.SearchProduct;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,7 +64,7 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.Holderview
         final String desc = productlist.get(position).getItemDesc();
         final boolean flag = true;
 
-        holder.limearLayout.setOnClickListener((view) ->{
+        holder.linearLayout.setOnClickListener((view) ->{
             Intent intent = new Intent(context, ItemDetailsActivity.class);
             intent.putExtra(STRING_IMAGE_URI, productlist.get(position).getItemImageUrl());
             intent.putExtra(STRING_IMAGE_POSITION, position);

@@ -20,6 +20,7 @@ import com.moringaschool.wishabook.R;
 import com.moringaschool.wishabook.UI.MainActivity;
 import com.moringaschool.wishabook.UI.SuperClass;
 import com.moringaschool.wishabook.UI.Word;
+import com.moringaschool.wishabook.Utilities.ImageUrlUtils;
 
 import java.util.List;
 
@@ -57,7 +58,7 @@ public class ImageListFragment extends Fragment {
         String[] items=null;
 
         if (ImageListFragment.this.getArguments().getInt("type") == 1){
-            items =ImageUrlUtils.getOffersUrls();
+            items = ImageUrlUtils.getOffersUrls();
             details = new Offer();
             productlist = details.getOffers();
 
